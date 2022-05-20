@@ -57,10 +57,98 @@ header .navbar a{
 header .navbar a:hover{
     color:var(--red);
 }
+section{
+    display: block;
+}
 
+.main{
+    width: 100vw;
+    height: auto;
+    margin: 2% auto;
+    font-family: 'Roboto', sans-serif;
+}
+.banner{
+    width: 100vw;
+}
+.search {
+    width: 800px;
+    height: 50px;
+    background: rgb(243, 243, 243);
+    border-radius: 8px;
+    padding: 8px;
+    position: relative;
+    left: 20%;
+    top: -120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    opacity: 0.8;
+    
+}
+.findhome {
+    width: 600px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    background: none;
+    padding: 8px;
+}
+.picks {
+    text-align: center;
+    margin-bottom: 4%;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+.home {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.home1 {
+    margin-bottom: 6%;
+    width: 300px;
+    text-align: center;
+}
+.home1 img {
+    margin-bottom: 6%;
+    width: 304px;
+}
+h4 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+h5{
+        display: block;
+        font-size: 0.83em;
+        margin-block-start: 1.67em;
+        margin-block-end: 1.67em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+}
 
-
-
+.click {
+    width: 160px;
+    height: 40px;
+    font-size: 1.0em;
+    color: #fff;
+    border: none;
+    padding: 4px;
+    border-radius: 2px;
+    background: rgb(80, 119, 88);
+}
 
 
 
